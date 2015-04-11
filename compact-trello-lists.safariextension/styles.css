@@ -1,0 +1,6 @@
+.list {
+	-webkit-flex: 0 0 228px!important;
+	-ms-flex: 0 0 228px!important;
+	flex: 0 0 228px!important;
+	max-width: 228px!important;
+}
