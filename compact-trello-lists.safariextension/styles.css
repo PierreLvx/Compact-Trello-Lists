@@ -4,3 +4,7 @@
 	flex: 0 0 228px!important;
 	max-width: 228px!important;
 }
+
+.list-wrapper {
+	width: 228px!important;
+}
