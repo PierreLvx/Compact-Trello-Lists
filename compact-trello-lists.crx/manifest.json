@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Compact Trello Lists",
+  "version": "1.0",
+  "description": "Fit more Trello lists on your screen.",
+  "icons": {
+    "32": "icon-32.png",
+    "48": "icon-48.png",
+    "64": "icon-64.png",
+    "96": "icon-96.png",
+    "128": "icon-128.png"
+  },
+  "author": "Pierre Lavaux",
+  "content_scripts": [{
+    "matches": ["https://trello.com/*"],
+    "css": ["styles.css"]
+  }],
+  "homepage_url": "https://github.com/PierreLvx/Compact-Trello-Lists",
+  "offline_enabled": true,
+  "permissions": ["https://trello.com/*"],
+  "update_url": "https://path/to/updateInfo.xml",
+  "version_name": "1.0 beta"
+}
